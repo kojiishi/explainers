@@ -37,7 +37,7 @@ Also, other writing systems may prefer other "top of text" and "bottom of text".
 Another common pain point today is vertical centering of text against non-text objects, such as:
 
 <p style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="https://camo.githubusercontent.com/6d251f2f9069238b80100319e95198207f58cf12cd593fed4765808a36e7cee7/68747470733a2f2f692e696d6775722e636f6d2f34514e4e6972582e706e67">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dpO-Wj1WJkUhfMJo6b16Nw.png">
   <img src="https://user-images.githubusercontent.com/709153/47383751-38341a80-d6ba-11e8-8cc6-cde2417f0574.png">
 </p>
 
