@@ -1,7 +1,8 @@
 # Explainer for the CSS `text-box`, `text-box-trim`, and `text-box-edge` properties
 
 ## Table of Contents
-* TOC {:toc}
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
 
 ## Introduction
 
@@ -14,28 +15,6 @@ These properties make finer control of vertical alignment of text possible.
 ## Use cases
 
 ### Use case 1
-
-The vertical position of text isn't visually interoperable across platforms,
-due to different font metrics.
-
-The rendering of
-[this test page](https://tobireif.com/non_site_stuff/test_case_for_font_position_report_yet_another_font/)
-on macOS (left) and Windows (right):
-</style>
-<p style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="https://user-images.githubusercontent.com/80411/41592189-1b1b8ee4-73bc-11e8-9c21-9ff43ac2167f.png">
-  <img src="https://user-images.githubusercontent.com/80411/41592204-25a82ae8-73bc-11e8-818d-d64216d9c480.png">
-</p>
-
-This use case diverged to
-the [font metrics overrides discussion](https://github.com/w3c/csswg-drafts/issues/4792),
-and partially resolved by adding
-the [default font metrics overriding](https://drafts.csswg.org/css-fonts/#font-metrics-override-desc).
-It addressed cross-platform visual interoperability,
-but the desire for finer control such as seen in other use cases still remained.
-Please see the "top of text" in the use case 2.
-
-### Use case 2
 
 [This example by Jan Nicklas](https://lists.w3.org/Archives/Public/www-archive/2018Oct/att-0009/00-part)
 explains various points of vertical alignments:
@@ -52,7 +31,7 @@ how the desired "top of text" may vary:
 </p>
 Note, other typographers may prefer other "top of text" for the same text.
 
-### Use case 3
+### Use case 2
 
 Another common pain point today is vertical centering of text against non-text objects, such as:
 
@@ -64,8 +43,8 @@ Another common pain point today is vertical centering of text against non-text o
 [This video from Figma](https://x.com/figma/status/1640750882613493760)
 demonstrates how the their implementation works.
 
-Similar to the use case 2, the top of text could be the cap-height or the x-height,
-depends on the text content.
+Similar to the use case above, the "top of text" could be the cap-height or the x-height,
+depends on the text content or on the authors' preferences.
 The bottom of text is usually the alphabetic baseline for Latin,
 but it's different for different writing systems.
 
@@ -79,7 +58,7 @@ along with the [`text-box-trim`] and [`text-box-edge`] properties,
 ## Stakeholder Feedback / Opposition
 
 - [Chromium] : Positive, [available as Experimental Web Platform features](https://crbug.com/40254880)
-- [WebKit] : Positive, available under a runtime flag
+- [WebKit] : Positive, available under a runtime flag in TP
 - [Microsoft Design] : [Positive](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202)
 - [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039)
 
