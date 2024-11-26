@@ -28,8 +28,9 @@ how the desired "top of text" may vary:
   <img src="https://user-images.githubusercontent.com/10702/100905587-89817b80-34c8-11eb-8454-57f48cdc2b00.gif">
   <img src="https://camo.githubusercontent.com/5776b249db46310818b54c8627639b90b5af53effc76a307bcd95dd1c6bd4cb1/68747470733a2f2f692e696d6775722e636f6d2f36416664496e6f2e706e67">
 </p>
-Note, other typographers or other writing systems
-may prefer other "top of text".
+
+Note, other typographers may prefer other "top of text".
+Also, other writing systems may prefer other "top of text" and "bottom of text".
 
 ### Use case 2
 
@@ -71,7 +72,7 @@ in the [Trimming Leading Over/Under Text] section of the CSS Inline Level 3.
 
 - [Chromium] : Positive, [available as Experimental Web Platform features](https://crbug.com/40254880)
 - [WebKit] : Positive, available under a runtime flag in TP
-- [Microsoft Design] : [Positive](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202)
+- [Microsoft Design] : Positive, published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202)
 - [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039)
 
 [Trimming Leading Over/Under Text]: https://drafts.csswg.org/css-inline-3/#leading-trim
