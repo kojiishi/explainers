@@ -1,5 +1,8 @@
 # Explainer for the CSS `text-box`, `text-box-trim`, and `text-box-edge` properties
 
+## Table of Contents
+{:toc}
+
 ## Introduction
 
 The CSS Inline Level 3
@@ -23,14 +26,8 @@ due to different font metrics.
 The rendering of
 [this test page](https://tobireif.com/non_site_stuff/test_case_for_font_position_report_yet_another_font/)
 on macOS (left) and Windows (right):
-<style>
-.side-by-side {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
 </style>
-<p class="side-by-side">
+<p style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
   <img src="https://user-images.githubusercontent.com/80411/41592189-1b1b8ee4-73bc-11e8-9c21-9ff43ac2167f.png">
   <img src="https://user-images.githubusercontent.com/80411/41592204-25a82ae8-73bc-11e8-818d-d64216d9c480.png">
 </p>
@@ -52,7 +49,7 @@ This example by Jan Nicklas explains various points of vertical alignments:
 When aligning the top of text to non-text objects,
 [this comment explains](https://github.com/w3c/csswg-drafts/issues/3240#issuecomment-737374575) that
 the desired "top of text" may vary:
-<p class="side-by-side">
+<p style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
   <img src="https://user-images.githubusercontent.com/10702/100905587-89817b80-34c8-11eb-8454-57f48cdc2b00.gif">
   <img src="https://camo.githubusercontent.com/5776b249db46310818b54c8627639b90b5af53effc76a307bcd95dd1c6bd4cb1/68747470733a2f2f692e696d6775722e636f6d2f36416664496e6f2e706e67">
 </p>
@@ -61,7 +58,7 @@ the desired "top of text" may vary:
 
 Another common pain point today is vertical centering of text against non-text objects, such as:
 
-<p class="side-by-side">
+<p style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
   <img src="https://camo.githubusercontent.com/6d251f2f9069238b80100319e95198207f58cf12cd593fed4765808a36e7cee7/68747470733a2f2f692e696d6775722e636f6d2f34514e4e6972582e706e67">
   <img src="https://user-images.githubusercontent.com/709153/47383751-38341a80-d6ba-11e8-8cc6-cde2417f0574.png">
 </p>
