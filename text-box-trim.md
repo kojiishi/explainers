@@ -29,7 +29,8 @@ how the desired "top of text" may vary:
   <img src="https://camo.githubusercontent.com/5776b249db46310818b54c8627639b90b5af53effc76a307bcd95dd1c6bd4cb1/68747470733a2f2f692e696d6775722e636f6d2f36416664496e6f2e706e67">
 </p>
 
-Note, other typographers may prefer other "top of text".
+Note, the rules in the above picture doesn't always stand.
+The "top of text" may vary by text content or by preferences.
 Also, other writing systems may prefer other "top of text" and "bottom of text".
 
 ### Use case 2
@@ -42,7 +43,7 @@ Another common pain point today is vertical centering of text against non-text o
 </p>
 
 [This video from Figma](https://x.com/figma/status/1640750882613493760)
-demonstrates how the their implementation works.
+demonstrates how the their implementation solves this use case.
 
 Similar to the use case above, the "top of text" could be the cap-height or the x-height,
 depends on the text content or on the authors' preferences.
