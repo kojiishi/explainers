@@ -29,8 +29,8 @@ how the desired "top of text" may vary:
   <img src="https://camo.githubusercontent.com/5776b249db46310818b54c8627639b90b5af53effc76a307bcd95dd1c6bd4cb1/68747470733a2f2f692e696d6775722e636f6d2f36416664496e6f2e706e67">
 </p>
 
-Note, the rules in the above picture doesn't always stand.
-The "top of text" may vary by text content or by preferences.
+Note, the rules in the above picture may vary.
+For example, the "top of text" may vary by text content or by preferences.
 Also, other writing systems may prefer other "top of text" and "bottom of text".
 
 ### Use case 2
