@@ -6,10 +6,13 @@
 
 ## Introduction
 
-The [Trimming Leading Over/Under Text] section in the CSS Inline Level 3
-defines two longhand properties, [`text-box-trim`] and [`text-box-edge`],
-and one shorthand property [`text-box`] for them.
-These properties make finer control of vertical alignment of text possible.
+To achieve optical balance of text content,
+the [`text-box-trim`] and [`text-box-edge`] properties,
+along with the shorthand property [`text-box`],
+make finer control of vertical alignment of text possible.
+
+They are defined in the [Trimming Leading Over/Under Text] section of
+the CSS Inline Level 3.
 
 ## Use cases
 
