@@ -11,7 +11,7 @@ the [`text-box-trim`] and [`text-box-edge`] properties,
 along with the shorthand property [`text-box`],
 make finer control of vertical alignment of text possible.
 
-They properties are defined in
+These properties are defined in
 the [Trimming Leading Over/Under Text] section of
 the CSS Inline Level 3.
 
