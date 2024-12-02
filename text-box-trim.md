@@ -81,7 +81,60 @@ in the [Trimming Leading Over/Under Text] section of the CSS Inline Level 3.
 - [Microsoft Design] : Positive, published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202).
 - [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039).
 
+## Security and Privacy
+
+This section answers to the [Self-Review Questionnaire].
+
+* What information might this feature expose to Web sites or other parties,
+  and for what purposes is that exposure necessary?
+  - None.
+* Do features in your specification expose the minimum amount of information
+  necessary to enable their intended uses?
+  - Yes.
+* How do the features in your specification deal with personal information,
+  personally-identifiable information (PII), or information derived from them?
+  - No personal information.
+* How do the features in your specification deal with sensitive information?
+  - No sensitive information.
+* Do the features in your specification introduce new state for an origin
+  that persists across browsing sessions?
+  - No.
+* Do the features in your specification expose information
+  about the underlying platform to origins?
+  - No.
+* Does this specification allow an origin to send data to the underlying platform?
+  - No.
+* Do features in this specification enable access to device sensors?
+  - No.
+* Do features in this specification enable new script execution/loading mechanisms?
+  - No.
+* Do features in this specification allow an origin to access other devices?
+  - No.
+* Do features in this specification allow an origin
+  some measure of control over a user agent’s native UI?
+  - No.
+* What temporary identifiers
+  do the features in this specification create or expose to the web?
+  - None.
+* How does this specification distinguish
+  between behavior in first-party and third-party contexts?
+  - It doesn't distinguish.
+* How do the features in this specification work
+  in the context of a browser’s Private Browsing or Incognito mode?
+  - The same way as normal context.
+* Does this specification have both "Security Considerations" and
+  "Privacy Considerations" sections?
+  - Yes, the [Privacy Considerations] and [Security Considerations].
+* Do features in your specification enable origins
+  to downgrade default security protections?
+  - No.
+* How does your feature handle non-"fully active" documents?
+  - The same way as "fully active" documents.
+
 [Trimming Leading Over/Under Text]: https://drafts.csswg.org/css-inline-3/#leading-trim
 [`text-box`]: https://drafts.csswg.org/css-inline-3/#propdef-text-box
 [`text-box-edge`]: https://drafts.csswg.org/css-inline-3/#propdef-text-box-edge
 [`text-box-trim`]: https://drafts.csswg.org/css-inline-3/#propdef-text-box-trim
+[Self-Review Questionnaire]: https://www.w3.org/TR/security-privacy-questionnaire/
+[Privacy Considerations]: https://drafts.csswg.org/css-inline-3/#privacy
+[Security Considerations]: https://drafts.csswg.org/css-inline-3/#security
