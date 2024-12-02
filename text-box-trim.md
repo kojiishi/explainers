@@ -29,7 +29,8 @@ how the desired "top of text" may vary:
   <img src="https://camo.githubusercontent.com/5776b249db46310818b54c8627639b90b5af53effc76a307bcd95dd1c6bd4cb1/68747470733a2f2f692e696d6775722e636f6d2f36416664496e6f2e706e67">
 </p>
 
-Note, the rules in the above picture may vary.
+Note, the rules in the picture above may vary
+depends on preferences of authors or writing systems.
 For example, the "top of text" may vary by text content or by preferences.
 Also, other writing systems may prefer other "top of text" and "bottom of text".
 
@@ -71,10 +72,10 @@ in the [Trimming Leading Over/Under Text] section of the CSS Inline Level 3.
 
 ## Stakeholder Feedback / Opposition
 
-- [Chromium] : Positive, [available as Experimental Web Platform features](https://crbug.com/40254880)
-- [WebKit] : Positive, available under a runtime flag in TP
-- [Microsoft Design] : Positive, published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202)
-- [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039)
+- [Chromium] : Positive, [available as Experimental Web Platform features](https://crbug.com/40254880).
+- [WebKit] : Positive, available under a runtime flag.
+- [Microsoft Design] : Positive, published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202).
+- [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039).
 
 [Trimming Leading Over/Under Text]: https://drafts.csswg.org/css-inline-3/#leading-trim
 [`text-box`]: https://drafts.csswg.org/css-inline-3/#propdef-text-box
