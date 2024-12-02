@@ -78,8 +78,8 @@ in the [Trimming Leading Over/Under Text] section of the CSS Inline Level 3.
 
 - [Chromium] : Positive, [available as Experimental Web Platform features](https://crbug.com/40254880).
 - [WebKit] : Positive, available under a runtime flag.
-- [Microsoft Design] : Positive, published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202).
-- [Figma] : Positive, [launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039).
+- [Microsoft Design] : Published [an article](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202).
+- [Figma] : [Launched their implementation](https://forum.figma.com/t/launched-leading-trim/27039).
 
 ## Security and Privacy
 
