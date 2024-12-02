@@ -8,7 +8,7 @@
 
 To achieve optical balance of text content,
 the [`text-box-trim`] and [`text-box-edge`] properties,
-along with the shorthand property [`text-box`],
+along with the [`text-box`] shorthand property,
 make finer control of vertical alignment of text possible.
 
 These properties are defined in
