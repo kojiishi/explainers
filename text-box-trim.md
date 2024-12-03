@@ -70,7 +70,7 @@ The following CSS is a simple example for the use cases above for the Latin writ
 
 [An interactive demo page](https://codepen.io/argyleink/pen/RwXGOMZ)
 by [Adam Argyle](https://github.com/argyleink)
-can demonstrate the effects with the supported browsers.
+can demonstrate the effects on the supported browsers.
 
 For more details, please see
 the [`text-box`] shorthand property,
